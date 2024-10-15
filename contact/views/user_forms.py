@@ -32,7 +32,7 @@ def user_update(request):
     if request.method != 'POST':
         return render(
             request,
-            'contact/user_update.html',
+            'contact/partials/user_update.html',
             {
                 'form': form
             }
